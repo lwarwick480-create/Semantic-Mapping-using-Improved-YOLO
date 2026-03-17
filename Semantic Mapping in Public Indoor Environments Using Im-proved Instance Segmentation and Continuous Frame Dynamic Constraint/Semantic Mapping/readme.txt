@@ -1,0 +1,10 @@
+1.astra_camera功能包是用于驱动深度相机的
+2.astra_camera_msgs是相机的消息类型
+3.yolov8_ros用于启动yolo实例分割（必须安装yolo的环境）
+4.intercept_frame用于得到语义点云
+5.cloud_to_plane将语义点云三维转为二维
+6.semantic_map通过连续帧一致性约束来让初始语义点云标记在地图上
+7.semantic_clustering聚类算法
+8.semantic_rect_fitting最小矩形拟合
+9.semantic_map_saver保存地图（用于调试）
+10.SLAM使用的是开源的cartographer算法
